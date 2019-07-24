@@ -1,0 +1,6 @@
+algorithm = All k-NN
+inputData = "../datasets/sonar/sonar-10-7tra.dat" "../datasets/sonar/sonar-10-7tst.dat" 
+outputData = "../datasets/AllKNN-TSS.sonar/AllKNN-TSS.sonar-10-7tra.dat" "../datasets/AllKNN-TSS.sonar/AllKNN-TSS.sonar-10-7tst.dat" 
+
+Number of Neighbors = 3
+Distance Function = Euclidean

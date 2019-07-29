@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Graph objective="0" IDExperiment="7" typeExperiment="0">
+    <experimentSeed>12345678</experimentSeed>
+    <nameGraph>/home/karu/Documents/COMP309/Assignment 1/datafiles/part3/EvolutionaryProgram.xml</nameGraph>
+    <Node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        IDNode="3" typeNode="1" xsi:type="algorithm">
+        <positionNode positionX="328" positionY="134"/>
+        <Description>
+            <subType>5</subType>
+            <name>BioHEL-C</name>
+            <path>file:./algorithm/methods/</path>
+            <jarName>BioHEL.jar</jarName>
+        </Description>
+        <Parameters>
+            <AlgorithmType>BioHEL Classifier</AlgorithmType>
+            <numParameters>25</numParameters>
+            <Probabilistic>true</Probabilistic>
+            <numOutputs>1</numOutputs>
+            <numInputs>0</numInputs>
+            <numExecutions>1</numExecutions>
+            <descriptions>defClass</descriptions>
+            <descriptions>popSize</descriptions>
+            <descriptions>selectAlg</descriptions>
+            <descriptions>tournamentSize</descriptions>
+            <descriptions>crossoverProbability</descriptions>
+            <descriptions>mutationProbability</descriptions>
+            <descriptions>elitismEnabled</descriptions>
+            <descriptions>numIterations</descriptions>
+            <descriptions>numRepetitionsLearning</descriptions>
+            <descriptions>generalizeProbability</descriptions>
+            <descriptions>specializeProbability</descriptions>
+            <descriptions>winMethod</descriptions>
+            <descriptions>numStrataWindowing</descriptions>
+            <descriptions>numStages</descriptions>
+            <descriptions>optMethod</descriptions>
+            <descriptions>smartInitMethod</descriptions>
+            <descriptions>classWiseInit</descriptions>
+            <descriptions>expectedRuleSize</descriptions>
+            <descriptions>probOne</descriptions>
+            <descriptions>useMDL</descriptions>
+            <descriptions>numIterationsMDL</descriptions>
+            <descriptions>initialTheoryLengthRatio</descriptions>
+            <descriptions>mdlWeightRelaxFactor</descriptions>
+            <descriptions>coverageBreakpoint</descriptions>
+            <descriptions>coverageRatio</descriptions>
+            <parameterType>list</parameterType>
+            <parameterType>integer</parameterType>
+            <parameterType>list</parameterType>
+            <parameterType>integer</parameterType>
+            <parameterType>real</parameterType>
+            <parameterType>real</parameterType>
+            <parameterType>list</parameterType>
+            <parameterType>integer</parameterType>
+            <parameterType>integer</parameterType>
+            <parameterType>real</parameterType>
+            <parameterType>real</parameterType>
+            <parameterType>list</parameterType>
+            <parameterType>integer</parameterType>
+            <parameterType>integer</parameterType>
+            <parameterType>list</parameterType>
+            <parameterType>list</parameterType>
+            <parameterType>list</parameterType>
+            <parameterType>integer</parameterType>
+            <parameterType>real</parameterType>
+            <parameterType>list</parameterType>
+            <parameterType>integer</parameterType>
+            <parameterType>real</parameterType>
+            <parameterType>real</parameterType>
+            <parameterType>real</parameterType>
+            <parameterType>real</parameterType>
+            <domain>
+                <string xsi:type="java:java.lang.String">major</string>
+                <string xsi:type="java:java.lang.String">minor</string>
+                <string xsi:type="java:java.lang.String">disabled</string>
+            </domain>
+            <domain/>
+            <domain>
+                <string xsi:type="java:java.lang.String">tournament</string>
+                <string xsi:type="java:java.lang.String">tournamentWOR</string>
+            </domain>
+            <domain/>
+            <domain>
+                <string xsi:type="java:java.lang.String">0</string>
+                <string xsi:type="java:java.lang.String">1</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">0</string>
+                <string xsi:type="java:java.lang.String">1</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">true</string>
+                <string xsi:type="java:java.lang.String">false</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">1</string>
+                <string xsi:type="java:java.lang.String">10000</string>
+            </domain>
+            <domain/>
+            <domain>
+                <string xsi:type="java:java.lang.String">0</string>
+                <string xsi:type="java:java.lang.String">1</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">0</string>
+                <string xsi:type="java:java.lang.String">1</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">ilas</string>
+                <string xsi:type="java:java.lang.String">gws</string>
+                <string xsi:type="java:java.lang.String">none</string>
+            </domain>
+            <domain/>
+            <domain/>
+            <domain>
+                <string xsi:type="java:java.lang.String">minimize</string>
+                <string xsi:type="java:java.lang.String">maximize</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">true</string>
+                <string xsi:type="java:java.lang.String">false</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">true</string>
+                <string xsi:type="java:java.lang.String">false</string>
+            </domain>
+            <domain/>
+            <domain>
+                <string xsi:type="java:java.lang.String">0</string>
+                <string xsi:type="java:java.lang.String">1</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">true</string>
+                <string xsi:type="java:java.lang.String">false</string>
+            </domain>
+            <domain/>
+            <domain>
+                <string xsi:type="java:java.lang.String">0</string>
+                <string xsi:type="java:java.lang.String">1</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">0</string>
+                <string xsi:type="java:java.lang.String">1</string>
+            </domain>
+            <domain/>
+            <domain/>
+            <defaultValue>disabled</defaultValue>
+            <defaultValue>500</defaultValue>
+            <defaultValue>tournamentWOR</defaultValue>
+            <defaultValue>4</defaultValue>
+            <defaultValue>0.6</defaultValue>
+            <defaultValue>0.6</defaultValue>
+            <defaultValue>true</defaultValue>
+            <defaultValue>100</defaultValue>
+            <defaultValue>2</defaultValue>
+            <defaultValue>0.1</defaultValue>
+            <defaultValue>0.1</defaultValue>
+            <defaultValue>ilas</defaultValue>
+            <defaultValue>2</defaultValue>
+            <defaultValue>2</defaultValue>
+            <defaultValue>minimize</defaultValue>
+            <defaultValue>true</defaultValue>
+            <defaultValue>true</defaultValue>
+            <defaultValue>15</defaultValue>
+            <defaultValue>0.75</defaultValue>
+            <defaultValue>true</defaultValue>
+            <defaultValue>10</defaultValue>
+            <defaultValue>0.01</defaultValue>
+            <defaultValue>0.9</defaultValue>
+            <defaultValue>0.1</defaultValue>
+            <defaultValue>0.9</defaultValue>
+            <value>disabled</value>
+            <value>500</value>
+            <value>tournamentWOR</value>
+            <value>4</value>
+            <value>0.6</value>
+            <value>0.6</value>
+            <value>true</value>
+            <value>100</value>
+            <value>2</value>
+            <value>0.1</value>
+            <value>0.1</value>
+            <value>ilas</value>
+            <value>2</value>
+            <value>2</value>
+            <value>minimize</value>
+            <value>true</value>
+            <value>true</value>
+            <value>15</value>
+            <value>0.75</value>
+            <value>true</value>
+            <value>10</value>
+            <value>0.01</value>
+            <value>0.9</value>
+            <value>0.1</value>
+            <value>0.9</value>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>1</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>1</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <trainingOutputs>../results/AllKNN-TSS.BioHEL-C.sonar/result0s0.tra</trainingOutputs>
+            <trainingOutputs>../results/AllKNN-TSS.BioHEL-C.sonar/result1s0.tra</trainingOutputs>
+            <trainingOutputs>../results/AllKNN-TSS.BioHEL-C.sonar/result2s0.tra</trainingOutputs>
+            <trainingOutputs>../results/AllKNN-TSS.BioHEL-C.sonar/result3s0.tra</trainingOutputs>
+            <trainingOutputs>../results/AllKNN-TSS.BioHEL-C.sonar/result4s0.tra</trainingOutputs>
+            <trainingOutputs>../results/AllKNN-TSS.BioHEL-C.sonar/result5s0.tra</trainingOutputs>
+            <trainingOutputs>../results/AllKNN-TSS.BioHEL-C.sonar/result6s0.tra</trainingOutputs>
+            <trainingOutputs>../results/AllKNN-TSS.BioHEL-C.sonar/result7s0.tra</trainingOutputs>
+            <trainingOutputs>../results/AllKNN-TSS.BioHEL-C.sonar/result8s0.tra</trainingOutputs>
+            <trainingOutputs>../results/AllKNN-TSS.BioHEL-C.sonar/result9s0.tra</trainingOutputs>
+            <testOutputs>../results/AllKNN-TSS.BioHEL-C.sonar/result0s0.tst</testOutputs>
+            <testOutputs>../results/AllKNN-TSS.BioHEL-C.sonar/result1s0.tst</testOutputs>
+            <testOutputs>../results/AllKNN-TSS.BioHEL-C.sonar/result2s0.tst</testOutputs>
+            <testOutputs>../results/AllKNN-TSS.BioHEL-C.sonar/result3s0.tst</testOutputs>
+            <testOutputs>../results/AllKNN-TSS.BioHEL-C.sonar/result4s0.tst</testOutputs>
+            <testOutputs>../results/AllKNN-TSS.BioHEL-C.sonar/result5s0.tst</testOutputs>
+            <testOutputs>../results/AllKNN-TSS.BioHEL-C.sonar/result6s0.tst</testOutputs>
+            <testOutputs>../results/AllKNN-TSS.BioHEL-C.sonar/result7s0.tst</testOutputs>
+            <testOutputs>../results/AllKNN-TSS.BioHEL-C.sonar/result8s0.tst</testOutputs>
+            <testOutputs>../results/AllKNN-TSS.BioHEL-C.sonar/result9s0.tst</testOutputs>
+            <trainingValues>../datasets/sonar/sonar-10-1tra.dat</trainingValues>
+            <trainingValues>../datasets/sonar/sonar-10-2tra.dat</trainingValues>
+            <trainingValues>../datasets/sonar/sonar-10-3tra.dat</trainingValues>
+            <trainingValues>../datasets/sonar/sonar-10-4tra.dat</trainingValues>
+            <trainingValues>../datasets/sonar/sonar-10-5tra.dat</trainingValues>
+            <trainingValues>../datasets/sonar/sonar-10-6tra.dat</trainingValues>
+            <trainingValues>../datasets/sonar/sonar-10-7tra.dat</trainingValues>
+            <trainingValues>../datasets/sonar/sonar-10-8tra.dat</trainingValues>
+            <trainingValues>../datasets/sonar/sonar-10-9tra.dat</trainingValues>
+            <trainingValues>../datasets/sonar/sonar-10-10tra.dat</trainingValues>
+            <testValues>../datasets/sonar/sonar-10-1tst.dat</testValues>
+            <testValues>../datasets/sonar/sonar-10-2tst.dat</testValues>
+            <testValues>../datasets/sonar/sonar-10-3tst.dat</testValues>
+            <testValues>../datasets/sonar/sonar-10-4tst.dat</testValues>
+            <testValues>../datasets/sonar/sonar-10-5tst.dat</testValues>
+            <testValues>../datasets/sonar/sonar-10-6tst.dat</testValues>
+            <testValues>../datasets/sonar/sonar-10-7tst.dat</testValues>
+            <testValues>../datasets/sonar/sonar-10-8tst.dat</testValues>
+            <testValues>../datasets/sonar/sonar-10-9tst.dat</testValues>
+            <testValues>../datasets/sonar/sonar-10-10tst.dat</testValues>
+            <configurations>/AllKNN-TSS.BioHEL-C/sonar/config0s0.txt</configurations>
+            <configurations>/AllKNN-TSS.BioHEL-C/sonar/config1s0.txt</configurations>
+            <configurations>/AllKNN-TSS.BioHEL-C/sonar/config2s0.txt</configurations>
+            <configurations>/AllKNN-TSS.BioHEL-C/sonar/config3s0.txt</configurations>
+            <configurations>/AllKNN-TSS.BioHEL-C/sonar/config4s0.txt</configurations>
+            <configurations>/AllKNN-TSS.BioHEL-C/sonar/config5s0.txt</configurations>
+            <configurations>/AllKNN-TSS.BioHEL-C/sonar/config6s0.txt</configurations>
+            <configurations>/AllKNN-TSS.BioHEL-C/sonar/config7s0.txt</configurations>
+            <configurations>/AllKNN-TSS.BioHEL-C/sonar/config8s0.txt</configurations>
+            <configurations>/AllKNN-TSS.BioHEL-C/sonar/config9s0.txt</configurations>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/AllKNN-TSS.BioHEL-C.sonar/result0s0e0.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/AllKNN-TSS.BioHEL-C.sonar/result1s0e0.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/AllKNN-TSS.BioHEL-C.sonar/result2s0e0.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/AllKNN-TSS.BioHEL-C.sonar/result3s0e0.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/AllKNN-TSS.BioHEL-C.sonar/result4s0e0.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/AllKNN-TSS.BioHEL-C.sonar/result5s0e0.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/AllKNN-TSS.BioHEL-C.sonar/result6s0e0.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/AllKNN-TSS.BioHEL-C.sonar/result7s0e0.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/AllKNN-TSS.BioHEL-C.sonar/result8s0e0.txt&quot; </string>
+            </additionalOutputs>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/AllKNN-TSS.BioHEL-C.sonar/result9s0e0.txt&quot; </string>
+            </additionalOutputs>
+        </Parameters>
+    </Node>
+    <Node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        IDNode="4" typeNode="7" xsi:type="test">
+        <positionNode positionX="421" positionY="142"/>
+        <Description>
+            <subType>10</subType>
+            <name>Vis-Clas-Check</name>
+            <path>file:./algorithm/tests/</path>
+            <jarName>ClasifTest_Summary.jar</jarName>
+        </Description>
+        <Parameters>
+            <AlgorithmType>Summary of Classification probs.</AlgorithmType>
+            <numParameters>3</numParameters>
+            <Probabilistic>true</Probabilistic>
+            <numOutputs>0</numOutputs>
+            <numInputs>1</numInputs>
+            <numExecutions>1</numExecutions>
+            <descriptions>subAlgorithm</descriptions>
+            <descriptions>dataformat</descriptions>
+            <descriptions>outlabel</descriptions>
+            <parameterType>list</parameterType>
+            <parameterType>list</parameterType>
+            <parameterType>list</parameterType>
+            <domain>
+                <string xsi:type="java:java.lang.String">StatCheckCL</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">keel</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">CHK</string>
+            </domain>
+            <defaultValue>StatCheckCL</defaultValue>
+            <defaultValue>keel</defaultValue>
+            <defaultValue>CHK</defaultValue>
+            <value>StatCheckCL</value>
+            <value>keel</value>
+            <value>CHK</value>
+            <hidden>1</hidden>
+            <hidden>1</hidden>
+            <hidden>1</hidden>
+            <trainingOutputs>../results/Vis-Clas-Check/TSTBioHEL-C/result0s0.stat</trainingOutputs>
+            <configurations>/Vis-Clas-Check/TSTBioHEL-C/config0s0.txt</configurations>
+        </Parameters>
+    </Node>
+    <Node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        IDNode="2" typeNode="1" xsi:type="algorithm">
+        <positionNode positionX="238" positionY="134"/>
+        <Description>
+            <subType>4</subType>
+            <name>AllKNN-TSS</name>
+            <path>file:./algorithm/preprocess/</path>
+            <jarName>IS-AllKNN.jar</jarName>
+        </Description>
+        <Parameters>
+            <AlgorithmType>All k-NN</AlgorithmType>
+            <numParameters>2</numParameters>
+            <Probabilistic>false</Probabilistic>
+            <numOutputs>0</numOutputs>
+            <numInputs>0</numInputs>
+            <numExecutions>1</numExecutions>
+            <descriptions>Number of Neighbors</descriptions>
+            <descriptions>Distance Function</descriptions>
+            <parameterType>integer</parameterType>
+            <parameterType>list</parameterType>
+            <domain>
+                <string xsi:type="java:java.lang.String">1</string>
+                <string xsi:type="java:java.lang.String">9</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">Euclidean</string>
+                <string xsi:type="java:java.lang.String">HVDM</string>
+            </domain>
+            <defaultValue>3</defaultValue>
+            <defaultValue>Euclidean</defaultValue>
+            <value>3</value>
+            <value>Euclidean</value>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <trainingOutputs>../datasets/AllKNN-TSS.sonar/AllKNN-TSS.sonar-10-1tra.dat</trainingOutputs>
+            <trainingOutputs>../datasets/AllKNN-TSS.sonar/AllKNN-TSS.sonar-10-2tra.dat</trainingOutputs>
+            <trainingOutputs>../datasets/AllKNN-TSS.sonar/AllKNN-TSS.sonar-10-3tra.dat</trainingOutputs>
+            <trainingOutputs>../datasets/AllKNN-TSS.sonar/AllKNN-TSS.sonar-10-4tra.dat</trainingOutputs>
+            <trainingOutputs>../datasets/AllKNN-TSS.sonar/AllKNN-TSS.sonar-10-5tra.dat</trainingOutputs>
+            <trainingOutputs>../datasets/AllKNN-TSS.sonar/AllKNN-TSS.sonar-10-6tra.dat</trainingOutputs>
+            <trainingOutputs>../datasets/AllKNN-TSS.sonar/AllKNN-TSS.sonar-10-7tra.dat</trainingOutputs>
+            <trainingOutputs>../datasets/AllKNN-TSS.sonar/AllKNN-TSS.sonar-10-8tra.dat</trainingOutputs>
+            <trainingOutputs>../datasets/AllKNN-TSS.sonar/AllKNN-TSS.sonar-10-9tra.dat</trainingOutputs>
+            <trainingOutputs>../datasets/AllKNN-TSS.sonar/AllKNN-TSS.sonar-10-10tra.dat</trainingOutputs>
+            <testOutputs>../datasets/AllKNN-TSS.sonar/AllKNN-TSS.sonar-10-1tst.dat</testOutputs>
+            <testOutputs>../datasets/AllKNN-TSS.sonar/AllKNN-TSS.sonar-10-2tst.dat</testOutputs>
+            <testOutputs>../datasets/AllKNN-TSS.sonar/AllKNN-TSS.sonar-10-3tst.dat</testOutputs>
+            <testOutputs>../datasets/AllKNN-TSS.sonar/AllKNN-TSS.sonar-10-4tst.dat</testOutputs>
+            <testOutputs>../datasets/AllKNN-TSS.sonar/AllKNN-TSS.sonar-10-5tst.dat</testOutputs>
+            <testOutputs>../datasets/AllKNN-TSS.sonar/AllKNN-TSS.sonar-10-6tst.dat</testOutputs>
+            <testOutputs>../datasets/AllKNN-TSS.sonar/AllKNN-TSS.sonar-10-7tst.dat</testOutputs>
+            <testOutputs>../datasets/AllKNN-TSS.sonar/AllKNN-TSS.sonar-10-8tst.dat</testOutputs>
+            <testOutputs>../datasets/AllKNN-TSS.sonar/AllKNN-TSS.sonar-10-9tst.dat</testOutputs>
+            <testOutputs>../datasets/AllKNN-TSS.sonar/AllKNN-TSS.sonar-10-10tst.dat</testOutputs>
+            <trainingValues>../datasets/sonar/sonar-10-1tra.dat</trainingValues>
+            <trainingValues>../datasets/sonar/sonar-10-2tra.dat</trainingValues>
+            <trainingValues>../datasets/sonar/sonar-10-3tra.dat</trainingValues>
+            <trainingValues>../datasets/sonar/sonar-10-4tra.dat</trainingValues>
+            <trainingValues>../datasets/sonar/sonar-10-5tra.dat</trainingValues>
+            <trainingValues>../datasets/sonar/sonar-10-6tra.dat</trainingValues>
+            <trainingValues>../datasets/sonar/sonar-10-7tra.dat</trainingValues>
+            <trainingValues>../datasets/sonar/sonar-10-8tra.dat</trainingValues>
+            <trainingValues>../datasets/sonar/sonar-10-9tra.dat</trainingValues>
+            <trainingValues>../datasets/sonar/sonar-10-10tra.dat</trainingValues>
+            <testValues>../datasets/sonar/sonar-10-1tst.dat</testValues>
+            <testValues>../datasets/sonar/sonar-10-2tst.dat</testValues>
+            <testValues>../datasets/sonar/sonar-10-3tst.dat</testValues>
+            <testValues>../datasets/sonar/sonar-10-4tst.dat</testValues>
+            <testValues>../datasets/sonar/sonar-10-5tst.dat</testValues>
+            <testValues>../datasets/sonar/sonar-10-6tst.dat</testValues>
+            <testValues>../datasets/sonar/sonar-10-7tst.dat</testValues>
+            <testValues>../datasets/sonar/sonar-10-8tst.dat</testValues>
+            <testValues>../datasets/sonar/sonar-10-9tst.dat</testValues>
+            <testValues>../datasets/sonar/sonar-10-10tst.dat</testValues>
+            <configurations>/AllKNN-TSS/sonar/config0.txt</configurations>
+            <configurations>/AllKNN-TSS/sonar/config1.txt</configurations>
+            <configurations>/AllKNN-TSS/sonar/config2.txt</configurations>
+            <configurations>/AllKNN-TSS/sonar/config3.txt</configurations>
+            <configurations>/AllKNN-TSS/sonar/config4.txt</configurations>
+            <configurations>/AllKNN-TSS/sonar/config5.txt</configurations>
+            <configurations>/AllKNN-TSS/sonar/config6.txt</configurations>
+            <configurations>/AllKNN-TSS/sonar/config7.txt</configurations>
+            <configurations>/AllKNN-TSS/sonar/config8.txt</configurations>
+            <configurations>/AllKNN-TSS/sonar/config9.txt</configurations>
+        </Parameters>
+    </Node>
+    <Node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        IDNode="6" typeNode="0" xsi:type="data-set">
+        <positionNode positionX="133" positionY="131"/>
+        <Description>
+            <subType>0</subType>
+            <name>sonar</name>
+            <path>/data/</path>
+            <jarName>sonar.jar</jarName>
+        </Description>
+        <Files>
+            <string xsi:type="java:java.lang.String">sonar-10-1tra.dat,sonar-10-1tst.dat</string>
+            <string xsi:type="java:java.lang.String">sonar-10-2tra.dat,sonar-10-2tst.dat</string>
+            <string xsi:type="java:java.lang.String">sonar-10-3tra.dat,sonar-10-3tst.dat</string>
+            <string xsi:type="java:java.lang.String">sonar-10-4tra.dat,sonar-10-4tst.dat</string>
+            <string xsi:type="java:java.lang.String">sonar-10-5tra.dat,sonar-10-5tst.dat</string>
+            <string xsi:type="java:java.lang.String">sonar-10-6tra.dat,sonar-10-6tst.dat</string>
+            <string xsi:type="java:java.lang.String">sonar-10-7tra.dat,sonar-10-7tst.dat</string>
+            <string xsi:type="java:java.lang.String">sonar-10-8tra.dat,sonar-10-8tst.dat</string>
+            <string xsi:type="java:java.lang.String">sonar-10-9tra.dat,sonar-10-9tst.dat</string>
+            <string xsi:type="java:java.lang.String">sonar-10-10tra.dat,sonar-10-10tst.dat</string>
+        </Files>
+    </Node>
+    <Edge>
+        <originNode>3</originNode>
+        <destinyNode>2</destinyNode>
+    </Edge>
+    <Edge>
+        <originNode>2</originNode>
+        <destinyNode>0</destinyNode>
+    </Edge>
+    <Edge>
+        <originNode>0</originNode>
+        <destinyNode>1</destinyNode>
+    </Edge>
+</Graph>
